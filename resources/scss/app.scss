@@ -1,1 +1,15 @@
 @import "~bootstrap/scss/bootstrap";
+
+body {
+    background-color: #1c1c1c;
+    h1 {
+        color: white;
+    }
+    .row {
+        img {
+            object-fit: cover;
+            width: 80%;
+            height: 300px;
+        }
+    }
+}
